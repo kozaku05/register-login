@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>ログイン、ログアウト</h1>
+    <div id="register">
+        <h1>ユーザー登録</h1>
+      <input type="text" id="registerName" placeholder="ユーザー名" />
+      <input type="text" id="registerPassword" placeholder="パスワード"/>
+      <button onclick="register()">登録</button>
+    </div>
+    <br>
+    <div id="login">
+        <h1>ログイン</h1>
+      <input type="text" id="loginName" placeholder="ユーザー名"/>
+      <input type="text" id="loginPassword" placeholder="パスワード"/>
+      <button onclick="login()">ログイン</button>
+    </div>
+    <br>
+    <div id="dashboard">
+      <h1>ログイン中のアカウント</h1>
+      <p id="username"></p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
